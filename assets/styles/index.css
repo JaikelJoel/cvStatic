@@ -29,7 +29,7 @@ a:hover {
   text-decoration: underline;
   color: #C2185B;
 }
-.phone {
+.contact {
   font-size: 14px;
 }
 
@@ -70,34 +70,6 @@ a:hover {
   font-size: 20px;
   margin: 0 5px 0 0;
 }
-
-.icons-skills {
-  font-size: 60px;
-  margin: 0 1.5rem 0 0;
-}
-
-.html {
-  color: #e34f26;
-}
-i:nth-of-type(2) {
-  color: #002561;
-}
-i:nth-of-type(3) {
-  color: #f7df1e;
-}
-i:nth-of-type(4) {
-  color: #F1502F;
-}
-i:nth-of-type(5) {
-  color: #00d8ff;
-}
-i:nth-of-type(6) {
-  color: #44883e;
-}
-i:nth-of-type(7) {
-  color: #553C7B;
-}
-
 .facebook{
   color: #3b5998;
 }
@@ -110,10 +82,76 @@ i:nth-of-type(7) {
 .likedin{
   color: #0e76a8;
 }
+.skills-content {
+  display: grid;
+  grid-template: 100px 100px / repeat(5, 100px);
+}
+
+.icons-skills {
+  font-size: 60px;
+}
+
+.html {
+  color: #e34f26;
+}
+.css {
+  color: #002561;
+}
+.js {
+  color: #f7df1e;
+}
+.git {
+  color: #F1502F;
+}
+.react {
+  color: #00d8ff;
+}
+.node {
+  color: #44883e;
+}
+.bootstrap {
+  color: #553C7B;
+}
+.npm {
+  color: #CC3534;
+}
+
+.skills-wrap {
+  text-align: center;
+  margin: 25px 0 10px 0;
+}
+.skills-wrap p {
+  opacity: 0;
+/*   margin: 0; 
+  padding: 0; */
+}
+.skills-wrap:hover p {
+  opacity: 1;
+}
+/* .html {
+  transform: translateX(0);
+}
+.html:before {
+  content: 'HTML5';
+  position: relative;
+  top: 100px;
+  opacity: 1;
+} */
+/* .css:before {
+  content: 'HTML5';
+  position: relative;
+  bottom: 100%;
+} */
+
 
 @media only screen and (max-width: 767px) {
   .main-container {
     grid-template-columns: 1fr;
     text-align: center;
  }
+ .skills-content {
+  display: grid;
+  grid-template: 100px 100px / repeat(3, 100px);
+  justify-content: center;
+}
 }

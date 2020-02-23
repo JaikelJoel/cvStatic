@@ -122,26 +122,14 @@ a:hover {
 }
 .skills-wrap p {
   opacity: 0;
+  color: #C2185B;
 /*   margin: 0; 
   padding: 0; */
 }
 .skills-wrap:hover p {
   opacity: 1;
 }
-/* .html {
-  transform: translateX(0);
-}
-.html:before {
-  content: 'HTML5';
-  position: relative;
-  top: 100px;
-  opacity: 1;
-} */
-/* .css:before {
-  content: 'HTML5';
-  position: relative;
-  bottom: 100%;
-} */
+
 
 
 @media only screen and (max-width: 767px) {
